@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+html{
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  height: 100%;
+  width: 100%;
+  background:#1f2228;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main{
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+  font-family: 'Titillium Web', sans-serif;
+  color: #f8f8fb;
 }
 
-.App-link {
-  color: #61dafb;
+li{
+  font-family: 'Titillium Web', sans-serif;
+  color: #f8f8fb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-family: 'Titillium Web', sans-serif;
+  color: #f8f8fb;
+}
+
+h1{
+  font-family: 'Titillium Web', sans-serif;
+  color: #f8f8fb;
+}
+
+h2{
+  font-family: 'Titillium Web', sans-serif;
+  color: #f8f8fb;
+}
+
+h3{
+  font-family: 'Titillium Web', sans-serif;
+  color: #f8f8fb;
+}
+
+.col-1{
+  width: 92%;
+  float: right;
+}
+
+.col-2 {
+  width: 7%;
+  float: left;
+  border-right: 2px solid #2c2f35;
+}
+
+.menu-principal{
+  width: 100%;
+  height: 60px;
+}
+
+.menu-option{
+  background: #2c2f35;
+  height: 15%;
+}
+
+.menu-option svg{
+  margin-top: 16px;
+  padding-left: 27px;
+}
+
+.logo{
+  width:5%;
+  float: left;
+  height: 60px;
+  padding-left: 40px;
+}
+
+.logo h1{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.header-topics{
+  padding-left: 104px;
+  width: 32%;
+  float: left;
+  height: 60px;
+  text-align: justify;
+}
+
+.header-topics ul li {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.header-topics ul li a{
+  text-decoration: none;
+}
+
+.header-topics ul li:hover{
+  border-bottom: 3px solid #58301d;
+}
+
+.header-topics ul li a:hover{
+  font-weight: bold;
+}
+
+.header-options{
+  width: 21%;
+  float: left;
+  padding-left: 45px;
+  height: 60px;
+}
+
+.header-options ul li {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.header-options ul li a{
+  text-decoration: none;
+}
+
+.header-options ul li:hover{
+  border-bottom: 3px solid #58301d;
+}
+
+.header-options ul li a:hover{
+  font-weight: bold;
+}
+
+.header-busca{
+  float: right;
+  width: 1%;
+  padding-right: 109px;
+  margin-top: 23px;
+}
+
+.header-busca svg{
+  margin-top: 5px;
+}
+
+.rede-social{
+  height: 85%;
+}
+
+.rede-social ul{
+  list-style-type: none;
+  margin-top: 100px;
+}
+
+.rede-social ul li{
+  margin-top: 15px;
+}
+
+.col-films{
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid #2c2f35;
+}
+
+.filmes{
+  height: 200px;
+  border-bottom: 2px solid #2c2f35;
+}
+
+.img-filme{
+  width: 30%;
+  float: left;
+  height: 200px;
+}
+
+.movie{
+  width: 70%;
+  float: right;
+  height: 200px;
+}
+
+.movie h1{
+  margin-top: 65px;
+}
+
+.img-filme img{
+  height: 5em;
+  padding-left: 73px;
+  padding-top: 70px;
+}
+
+.ver-mais{
+  color: #f8f8fb;
+  background-color: transparent;
+  border-color: rgb(255, 197, 0);
+  border-radius: 1em;
+}
+
+.ver-mais:hover{
+  color: rgb(255, 197, 0);
+}
+
+.mteste{
+  position: relative;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  top: 19px;
+  border-radius: 3px;
+  background-color: rgb(255, 197, 0);
+  overflow: auto;
 }
