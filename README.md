@@ -1,4 +1,4 @@
-#Projeto star-wars-api
+# Projeto star-wars-api
 
 O projeto tem como objetivo o consumo da [API SWAPI](https://swapi.dev "API SWAPI") junto a uma interface.
 
@@ -21,3 +21,4 @@ Runs the app in the development mode.<br />
 Abra no browse a URL [http://localhost:3000](http://localhost:3000) 
 
 Talvez demora para carregar.<br />
+
