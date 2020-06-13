@@ -17,17 +17,6 @@ class MyButton extends Component {
     }
 }
 
-class MyFilms extends Component {
-
-    render() {
-        return (
-            <div className="mteste" >
-                <p>t</p>
-            </div>
-        );
-    }
-}
-
 class FilmsList extends Component {
     /*
     constructor(props) {
@@ -39,9 +28,8 @@ class FilmsList extends Component {
     }
 
     getFilms() {
-        axios.get(`https://swapi.dev/api/films/${this.props.codg}/`).then((response) => {
-            const bkpFilms = this.state.films
-            this.setState({ ...bkpFilms, films: response.data })
+        axios.get(`https://swapi.dev/api/films/${}/`).then((response) => {
+            this.setState({films: response.data })
         })
 
     }

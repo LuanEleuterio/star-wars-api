@@ -198,14 +198,3 @@ h3{
 .ver-mais:hover{
   color: rgb(255, 197, 0);
 }
-
-.mteste{
-  position: relative;
-  width: 80%;
-  height: 100px;
-  margin: 0 auto;
-  top: 19px;
-  border-radius: 3px;
-  background-color: rgb(255, 197, 0);
-  overflow: auto;
-}
