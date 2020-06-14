@@ -17,8 +17,7 @@ Para rodar o projeto, execute o comando:
 
 ### `yarn start` ou  `npm start`
 
-Runs the app in the development mode.<br />
 Abra no browse a URL [http://localhost:3000](http://localhost:3000) 
 
-Talvez demora para carregar.<br />
+Talvez demore para carregar.<br />
 
